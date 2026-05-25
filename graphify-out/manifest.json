@@ -1,0 +1,472 @@
+{
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\scripts\\migrate-from-forge.ps1": {
+    "mtime": 1779695433.215124,
+    "ast_hash": "b9e774a6e218c82430e7863e4a3b4d67",
+    "semantic_hash": "b9e774a6e218c82430e7863e4a3b4d67"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\BEST-PRACTICES.md": {
+    "mtime": 1779694678.6514037,
+    "ast_hash": "85a8ef924a6085782d0f456e760d34de",
+    "semantic_hash": "85a8ef924a6085782d0f456e760d34de"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\lattice.md": {
+    "mtime": 1779695212.1619873,
+    "ast_hash": "8fe746d0705e1a0f2a2517f01e697066",
+    "semantic_hash": "8fe746d0705e1a0f2a2517f01e697066"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\SKILL.md": {
+    "mtime": 1779695458.8767092,
+    "ast_hash": "3d3a9f3e3cf14b2e314a814b05a02db3",
+    "semantic_hash": "3d3a9f3e3cf14b2e314a814b05a02db3"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-bias-and-fairness.md": {
+    "mtime": 1778110828.0,
+    "ast_hash": "47bc007a40414c0147fd0b918e361fb8",
+    "semantic_hash": "47bc007a40414c0147fd0b918e361fb8"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-compute-infra.md": {
+    "mtime": 1778227820.0,
+    "ast_hash": "45108885f8de542363298ce7287f6f43",
+    "semantic_hash": "45108885f8de542363298ce7287f6f43"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-data-collection.md": {
+    "mtime": 1778247514.0,
+    "ast_hash": "43aec194e6cdcf9a44f92be52b005f23",
+    "semantic_hash": "43aec194e6cdcf9a44f92be52b005f23"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-data-preprocessing.md": {
+    "mtime": 1778248112.0,
+    "ast_hash": "ac3f51eaa518e8444a079f90c2844867",
+    "semantic_hash": "ac3f51eaa518e8444a079f90c2844867"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-data-versioning.md": {
+    "mtime": 1778248190.0,
+    "ast_hash": "f7986a30b2c5c31652c2d71934bc0f0d",
+    "semantic_hash": "f7986a30b2c5c31652c2d71934bc0f0d"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-experiment-tracking.md": {
+    "mtime": 1778248040.0,
+    "ast_hash": "26968ca5a5e4a14eec266c1f65bdb5f1",
+    "semantic_hash": "26968ca5a5e4a14eec266c1f65bdb5f1"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-explainability.md": {
+    "mtime": 1778226880.0,
+    "ast_hash": "b0f74a1b6ca2572d929ee1be4482ba51",
+    "semantic_hash": "b0f74a1b6ca2572d929ee1be4482ba51"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-feature-engineering.md": {
+    "mtime": 1778247586.0,
+    "ast_hash": "bce19e250303e90836a0e06884a5783c",
+    "semantic_hash": "bce19e250303e90836a0e06884a5783c"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-finetuning.md": {
+    "mtime": 1778248596.0,
+    "ast_hash": "2462a9e3388d21a64447f689b35cec35",
+    "semantic_hash": "2462a9e3388d21a64447f689b35cec35"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-ml-evaluation.md": {
+    "mtime": 1778247814.0,
+    "ast_hash": "18e2652b7e6da70f69b3e4e6e95d7be8",
+    "semantic_hash": "18e2652b7e6da70f69b3e4e6e95d7be8"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-mlops.md": {
+    "mtime": 1778227880.0,
+    "ast_hash": "8563a3fc86ce0749aa265d95b4fefdb1",
+    "semantic_hash": "8563a3fc86ce0749aa265d95b4fefdb1"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-model-architecture.md": {
+    "mtime": 1778228022.0,
+    "ast_hash": "5c572a67c972a157d4da547222cfc530",
+    "semantic_hash": "5c572a67c972a157d4da547222cfc530"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-model-selection.md": {
+    "mtime": 1778227946.0,
+    "ast_hash": "7e2ddc362b1cf2c909759590b574199a",
+    "semantic_hash": "7e2ddc362b1cf2c909759590b574199a"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-model-serving.md": {
+    "mtime": 1778247962.0,
+    "ast_hash": "2c26fbf0121bb95e82774913a9e5f1d5",
+    "semantic_hash": "2c26fbf0121bb95e82774913a9e5f1d5"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-monitoring.md": {
+    "mtime": 1778247736.0,
+    "ast_hash": "1e46e944b8853f082eb82e909019a314",
+    "semantic_hash": "1e46e944b8853f082eb82e909019a314"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-prompt-engineering.md": {
+    "mtime": 1778247660.0,
+    "ast_hash": "2110018c553270450b4570457bfffa65",
+    "semantic_hash": "2110018c553270450b4570457bfffa65"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-rag.md": {
+    "mtime": 1778124334.0,
+    "ast_hash": "c053d69c511589cb23ee46390afac235",
+    "semantic_hash": "c053d69c511589cb23ee46390afac235"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-reproducibility.md": {
+    "mtime": 1778227158.0,
+    "ast_hash": "1804ac355c76977e29f81c87388b7a1b",
+    "semantic_hash": "1804ac355c76977e29f81c87388b7a1b"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\ml\\skill-training.md": {
+    "mtime": 1778248510.0,
+    "ast_hash": "02db539a4709dbf7b4dd8dc4709be2be",
+    "semantic_hash": "02db539a4709dbf7b4dd8dc4709be2be"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-debugging.md": {
+    "mtime": 1779694678.685698,
+    "ast_hash": "c70a2802531ecb13a5ab4ecd678bd99e",
+    "semantic_hash": "c70a2802531ecb13a5ab4ecd678bd99e"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-docs.md": {
+    "mtime": 1778227960.0,
+    "ast_hash": "38cb669d28f71e1393599e8c07950824",
+    "semantic_hash": "38cb669d28f71e1393599e8c07950824"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-ethics.md": {
+    "mtime": 1778227206.0,
+    "ast_hash": "afa0c3fa8f5344a20cab8a0cf2e23159",
+    "semantic_hash": "afa0c3fa8f5344a20cab8a0cf2e23159"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-performance.md": {
+    "mtime": 1778227252.0,
+    "ast_hash": "e1142180d1e1a3d3bce9f206bcadc635",
+    "semantic_hash": "e1142180d1e1a3d3bce9f206bcadc635"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-receiving-feedback.md": {
+    "mtime": 1779694678.7127602,
+    "ast_hash": "1c126a615fe7f5a08a2833f877bff5d8",
+    "semantic_hash": "1c126a615fe7f5a08a2833f877bff5d8"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-reproducibility.md": {
+    "mtime": 1778227098.0,
+    "ast_hash": "65f0fc3d4193aecfd152cb9adec8ace4",
+    "semantic_hash": "65f0fc3d4193aecfd152cb9adec8ace4"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-security.md": {
+    "mtime": 1778227574.0,
+    "ast_hash": "f8a2c95e5991b72bcb1eb0bcbf3746a9",
+    "semantic_hash": "f8a2c95e5991b72bcb1eb0bcbf3746a9"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-self-review.md": {
+    "mtime": 1779694678.7138023,
+    "ast_hash": "df578d2f006b0d0bede04813f1b6a8df",
+    "semantic_hash": "df578d2f006b0d0bede04813f1b6a8df"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-tdd.md": {
+    "mtime": 1779694678.7168555,
+    "ast_hash": "730dfe1cb3ad98de1816ee37f4c7ba57",
+    "semantic_hash": "730dfe1cb3ad98de1816ee37f4c7ba57"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\shared\\skill-testing.md": {
+    "mtime": 1778227866.0,
+    "ast_hash": "84350dd1d735621fdf6e73d2e1a0fc23",
+    "semantic_hash": "84350dd1d735621fdf6e73d2e1a0fc23"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-abstract-writing.md": {
+    "mtime": 1778192804.0,
+    "ast_hash": "6d3872a696b85dd3dc0cbd32ba63b76d",
+    "semantic_hash": "6d3872a696b85dd3dc0cbd32ba63b76d"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-academic-writing.md": {
+    "mtime": 1778227822.0,
+    "ast_hash": "6dca39ac651b56fefce3b4e8f2bb00e8",
+    "semantic_hash": "6dca39ac651b56fefce3b4e8f2bb00e8"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-argument-validator.md": {
+    "mtime": 1778227890.0,
+    "ast_hash": "d29119d083a82b0c0b5d77163310d205",
+    "semantic_hash": "d29119d083a82b0c0b5d77163310d205"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-avoid-ai-writing.md": {
+    "mtime": 1779694678.7223783,
+    "ast_hash": "ec31e6d6f7aac625e95b9a7edafab6ae",
+    "semantic_hash": "ec31e6d6f7aac625e95b9a7edafab6ae"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-citation-management.md": {
+    "mtime": 1778247844.0,
+    "ast_hash": "913f42f521d717a386c7aebc30a961c7",
+    "semantic_hash": "913f42f521d717a386c7aebc30a961c7"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-conclusion-writing.md": {
+    "mtime": 1778247648.0,
+    "ast_hash": "7ea33ebb02890350ab33d01ccae121a7",
+    "semantic_hash": "7ea33ebb02890350ab33d01ccae121a7"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-consistency-checker.md": {
+    "mtime": 1778247932.0,
+    "ast_hash": "9c605a866f7b8222ca3fa8b30e99675e",
+    "semantic_hash": "9c605a866f7b8222ca3fa8b30e99675e"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-contribution-checker.md": {
+    "mtime": 1778227958.0,
+    "ast_hash": "512466304e9a8a9ff2de3d0d028d020e",
+    "semantic_hash": "512466304e9a8a9ff2de3d0d028d020e"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-dataset-documentation.md": {
+    "mtime": 1778196022.0,
+    "ast_hash": "05d8a43b8733561e7db76ef0df579464",
+    "semantic_hash": "05d8a43b8733561e7db76ef0df579464"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-discussion-writing.md": {
+    "mtime": 1778247576.0,
+    "ast_hash": "67f3ddfa76795e7aab610d4b908f791b",
+    "semantic_hash": "67f3ddfa76795e7aab610d4b908f791b"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-figures-and-tables.md": {
+    "mtime": 1778196222.0,
+    "ast_hash": "ea94fcba94c5809a34b42cc1d3c8eb80",
+    "semantic_hash": "ea94fcba94c5809a34b42cc1d3c8eb80"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-formatting.md": {
+    "mtime": 1778247748.0,
+    "ast_hash": "623e5de92a317675e14e4253e95179ed",
+    "semantic_hash": "623e5de92a317675e14e4253e95179ed"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-introduction-writing.md": {
+    "mtime": 1778248040.0,
+    "ast_hash": "78a2c763eec154bf7a532940924882dc",
+    "semantic_hash": "78a2c763eec154bf7a532940924882dc"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-literature-review.md": {
+    "mtime": 1778197324.0,
+    "ast_hash": "f26a544d4e11fe0afc915b38d91ba224",
+    "semantic_hash": "f26a544d4e11fe0afc915b38d91ba224"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-ml-experiment-design.md": {
+    "mtime": 1778197544.0,
+    "ast_hash": "81dcdc2d6e123c41180cf2700e3e34f8",
+    "semantic_hash": "81dcdc2d6e123c41180cf2700e3e34f8"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-model-description.md": {
+    "mtime": 1778197094.0,
+    "ast_hash": "8aff4972bdfaa85f5cd123097ad13036",
+    "semantic_hash": "8aff4972bdfaa85f5cd123097ad13036"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-research-methodology.md": {
+    "mtime": 1778228030.0,
+    "ast_hash": "127f76e6eb4f67267006712319017446",
+    "semantic_hash": "127f76e6eb4f67267006712319017446"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-results-writing.md": {
+    "mtime": 1778227376.0,
+    "ast_hash": "65ba316858dba5a0df564dbc7de42d2c",
+    "semantic_hash": "65ba316858dba5a0df564dbc7de42d2c"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\thesis\\skill-thesis-structure.md": {
+    "mtime": 1778227442.0,
+    "ast_hash": "2bad14fa754f518630cbaab3d1254176",
+    "semantic_hash": "2bad14fa754f518630cbaab3d1254176"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-a11y.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "ede05bb3d0ba0c6a37077d74e5d441cd",
+    "semantic_hash": "ede05bb3d0ba0c6a37077d74e5d441cd"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-api-graphql.md": {
+    "mtime": 1778247562.0,
+    "ast_hash": "a7ca7c70a684947323acbfe58ddb6b98",
+    "semantic_hash": "a7ca7c70a684947323acbfe58ddb6b98"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-api-realtime.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "f5f827cbfef7d915c4893cd483854987",
+    "semantic_hash": "f5f827cbfef7d915c4893cd483854987"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-api-rest.md": {
+    "mtime": 1778227996.0,
+    "ast_hash": "28d3dd591733cde748088f6be8bcfa3f",
+    "semantic_hash": "28d3dd591733cde748088f6be8bcfa3f"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-auth.md": {
+    "mtime": 1778227916.0,
+    "ast_hash": "410f89aa341fb9eae14e57187cda9d5c",
+    "semantic_hash": "410f89aa341fb9eae14e57187cda9d5c"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-backend.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "776b365947c2a5e8e9794607c0ebbd89",
+    "semantic_hash": "776b365947c2a5e8e9794607c0ebbd89"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-database.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "84da9c44b8710bbe6f94e32780411849",
+    "semantic_hash": "84da9c44b8710bbe6f94e32780411849"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-deployment.md": {
+    "mtime": 1778226942.0,
+    "ast_hash": "7352c2ec0bdf3e3d874ada24f0217802",
+    "semantic_hash": "7352c2ec0bdf3e3d874ada24f0217802"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-devops.md": {
+    "mtime": 1778226986.0,
+    "ast_hash": "3387a6d60d4a4e4ab11a212980ac98d2",
+    "semantic_hash": "3387a6d60d4a4e4ab11a212980ac98d2"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-error-handling.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "e9b00ecc02b8690adc853eed5a90eb9d",
+    "semantic_hash": "e9b00ecc02b8690adc853eed5a90eb9d"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-finishing-branch.md": {
+    "mtime": 1779694678.7378087,
+    "ast_hash": "7a1a5b8f24c226925bd12a3df9ec515a",
+    "semantic_hash": "7a1a5b8f24c226925bd12a3df9ec515a"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-frontend.md": {
+    "mtime": 1779695239.7462747,
+    "ast_hash": "635eb85d7c5a0ef9400571179b70bf3e",
+    "semantic_hash": "635eb85d7c5a0ef9400571179b70bf3e"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-git-worktrees.md": {
+    "mtime": 1779694678.7438557,
+    "ast_hash": "68db4189b977efd9ec502fd0ce4d1b7a",
+    "semantic_hash": "68db4189b977efd9ec502fd0ce4d1b7a"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-i18n.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "bff807f49affe0ac7e48e5aa8f509e17",
+    "semantic_hash": "bff807f49affe0ac7e48e5aa8f509e17"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-integrations.md": {
+    "mtime": 1779694678.7458708,
+    "ast_hash": "74d8a0564b16990a096431bd23265bab",
+    "semantic_hash": "74d8a0564b16990a096431bd23265bab"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-observability.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "256437e9943bbedaffd1a7becf4a0c60",
+    "semantic_hash": "256437e9943bbedaffd1a7becf4a0c60"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-performance.md": {
+    "mtime": 1778227300.0,
+    "ast_hash": "253680a193043603c3f5c09298d95f4c",
+    "semantic_hash": "253680a193043603c3f5c09298d95f4c"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-qa.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "49d642d6b02ad75797baca8719406fe8",
+    "semantic_hash": "49d642d6b02ad75797baca8719406fe8"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\domains\\webdev\\skill-validation.md": {
+    "mtime": 1778263426.0,
+    "ast_hash": "16d915d8662f8b6087012de548f3ea67",
+    "semantic_hash": "16d915d8662f8b6087012de548f3ea67"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\extract-design\\extract_design.md": {
+    "mtime": 1778104700.0,
+    "ast_hash": "925fc8d718e63823f3b37626f603bc9a",
+    "semantic_hash": "925fc8d718e63823f3b37626f603bc9a"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\modes\\model-lattice.md": {
+    "mtime": 1779694678.7504046,
+    "ast_hash": "0f568bb57818052f7ed3c34d2811a5b1",
+    "semantic_hash": "0f568bb57818052f7ed3c34d2811a5b1"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\modes\\project-lattice.md": {
+    "mtime": 1779694678.7514215,
+    "ast_hash": "f1fd041f6b47145b2f08f5fcb3c24bea",
+    "semantic_hash": "f1fd041f6b47145b2f08f5fcb3c24bea"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\brainstorming-protocol.md": {
+    "mtime": 1779694678.7547495,
+    "ast_hash": "c2dfc9112715ebe32a24a09807720bc8",
+    "semantic_hash": "c2dfc9112715ebe32a24a09807720bc8"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\dpev-loop-protocol.md": {
+    "mtime": 1779694678.7557542,
+    "ast_hash": "00d7f5a24abe88aa58a4bde39a3587c2",
+    "semantic_hash": "00d7f5a24abe88aa58a4bde39a3587c2"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\global-constants-schema.md": {
+    "mtime": 1779694678.7577457,
+    "ast_hash": "9b3cbd700d78933f8d90dbaeb77aca71",
+    "semantic_hash": "9b3cbd700d78933f8d90dbaeb77aca71"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\lattice-plan-template.md": {
+    "mtime": 1779695215.85693,
+    "ast_hash": "fa4020c58182ab7c77e117ef999132a3",
+    "semantic_hash": "fa4020c58182ab7c77e117ef999132a3"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\memory-decay-protocol.md": {
+    "mtime": 1779695226.9655583,
+    "ast_hash": "dc8e52a781f4742009ff49eb3752297a",
+    "semantic_hash": "dc8e52a781f4742009ff49eb3752297a"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\mistake-registry-protocol.md": {
+    "mtime": 1779695230.601574,
+    "ast_hash": "4bfc59893e8abccabb0cf3e406bd8b3e",
+    "semantic_hash": "4bfc59893e8abccabb0cf3e406bd8b3e"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\parallel-agents-protocol.md": {
+    "mtime": 1779695234.7149556,
+    "ast_hash": "5e285381bcf82d07c972f703968389bb",
+    "semantic_hash": "5e285381bcf82d07c972f703968389bb"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\phase-artifacts-protocol.md": {
+    "mtime": 1779694678.7602723,
+    "ast_hash": "74444c557797239cf6c38d8513182aa6",
+    "semantic_hash": "74444c557797239cf6c38d8513182aa6"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\plan-checker-protocol.md": {
+    "mtime": 1779694678.7612736,
+    "ast_hash": "c7f8e0c301ca47e0bfb7d36693e3794f",
+    "semantic_hash": "c7f8e0c301ca47e0bfb7d36693e3794f"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\questioning-protocol.md": {
+    "mtime": 1779694678.7622893,
+    "ast_hash": "0275d8f9a9b5401183fa9dc7d2da7289",
+    "semantic_hash": "0275d8f9a9b5401183fa9dc7d2da7289"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\resume-protocol.md": {
+    "mtime": 1779694678.7632875,
+    "ast_hash": "560ab584683c20dbf592b04fe9130750",
+    "semantic_hash": "560ab584683c20dbf592b04fe9130750"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\skill-integration-protocol.md": {
+    "mtime": 1779695223.6274712,
+    "ast_hash": "45105ba156b0c46c2a10fd26d822e253",
+    "semantic_hash": "45105ba156b0c46c2a10fd26d822e253"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\skill-template.md": {
+    "mtime": 1779694678.7642887,
+    "ast_hash": "44d8d02ee13cf6d5d4d781a990a7fa5e",
+    "semantic_hash": "44d8d02ee13cf6d5d4d781a990a7fa5e"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\unsure-protocol.md": {
+    "mtime": 1778110356.0,
+    "ast_hash": "82e144b465dc4e71a54da8ed83a1269c",
+    "semantic_hash": "82e144b465dc4e71a54da8ed83a1269c"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\verification-protocol.md": {
+    "mtime": 1779694678.7652926,
+    "ast_hash": "85d1fd4ea47abfbf990ede75357f61f3",
+    "semantic_hash": "85d1fd4ea47abfbf990ede75357f61f3"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\writing-plans-protocol.md": {
+    "mtime": 1779694678.7672899,
+    "ast_hash": "d9dfdec14b98a51aba5754071e891084",
+    "semantic_hash": "d9dfdec14b98a51aba5754071e891084"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\references\\anti-patterns-reference.md": {
+    "mtime": 1779694678.7708237,
+    "ast_hash": "a141c8232bd33999a0b5ac37d122effb",
+    "semantic_hash": "a141c8232bd33999a0b5ac37d122effb"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\shared\\references\\gates-reference.md": {
+    "mtime": 1779694678.772088,
+    "ast_hash": "5bb93eb8d6d7135417f1b17eafaeab80",
+    "semantic_hash": "5bb93eb8d6d7135417f1b17eafaeab80"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\skills-crafter\\crafter.md": {
+    "mtime": 1779694678.7736156,
+    "ast_hash": "518b1dd53f16b36c75bce88daf518b63",
+    "semantic_hash": "518b1dd53f16b36c75bce88daf518b63"
+  },
+  "C:\\Users\\janvi\\.claude\\skills\\lattice\\modes\\thesis-lattice.md": {
+    "mtime": 1779694678.7532225,
+    "ast_hash": "3377e61eb304f12303b16461be1834d0",
+    "semantic_hash": "3377e61eb304f12303b16461be1834d0"
+  }
+}

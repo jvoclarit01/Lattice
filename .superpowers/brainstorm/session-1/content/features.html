@@ -1,0 +1,40 @@
+<h2>Lattice TUI: Core Features</h2>
+<p class="subtitle">Select all features you want included in the initial version of the TUI</p>
+
+<div class="options" data-multiselect>
+  <div class="option" data-choice="dpev-wizard" onclick="toggleSelect(this)">
+    <div class="letter">1</div>
+    <div class="content">
+      <h3>DPEV Loop Interactive Wizard</h3>
+      <p>Forms to capture Discuss phase decisions, run verification checklist items, and automatically write CONTEXT.md, PLAN.md, and VERIFICATION.md in the active phase folders.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="skill-browser" onclick="toggleSelect(this)">
+    <div class="letter">2</div>
+    <div class="content">
+      <h3>Discipline Skill Browser & Search</h3>
+      <p>Searchable quick-reference viewer for all 66+ Lattice skills (webdev, ML, thesis, shared). Read Iron Laws, decision tables, and checklists directly in the terminal.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="plan-dashboard" onclick="toggleSelect(this)">
+    <div class="letter">3</div>
+    <div class="content">
+      <h3>Project Dashboard & Task Manager</h3>
+      <p>Displays active mode, active phase, and tasks from <code>.lattice-plan.md</code> with interactive status toggles (Uncompleted, In Progress, Completed).</p>
+    </div>
+  </div>
+  <div class="option" data-choice="graphify-integration" onclick="toggleSelect(this)">
+    <div class="letter">4</div>
+    <div class="content">
+      <h3>Graphify Dashboard & Query Tool</h3>
+      <p>Run graph builds or incremental updates, view community stats, and query the codebase's knowledge graph (BFS/DFS traversal paths) directly inside the TUI.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="forge-migrator" onclick="toggleSelect(this)">
+    <div class="letter">5</div>
+    <div class="content">
+      <h3>Forge to Lattice Migration Tool</h3>
+      <p>Graphical interface for the <code>migrate-from-forge.ps1</code> script, letting you dry-run or migrate legacy projects visually.</p>
+    </div>
+  </div>
+</div>

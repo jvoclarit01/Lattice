@@ -1,0 +1,45 @@
+{
+  "skill_name": "domains-automation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Explain how to prune execution data in n8n and set up a secure encryption key.",
+      "expected_output": "Must reference EXECUTIONS_DATA_PRUNE=true, EXECUTIONS_DATA_MAX_AGE, and configuring N8N_ENCRYPTION_KEY to prevent key loss on container restart.",
+      "files": [
+        "domains/automation/skill-n8n.md"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "How do we handle failing modules in Make scenarios for database write transactions?",
+      "expected_output": "Must recommend using the Rollback directive to ensure ACID transaction safety and saving JSON blueprints under git source control.",
+      "files": [
+        "domains/automation/skill-make.md"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "What are the limitations of Storage by Zapier, and when should we use external vaults?",
+      "expected_output": "Must cite the 25 KB per key storage limit, temporary data retention nature, and advise using Drive/Box for sensitive payloads.",
+      "files": [
+        "domains/automation/skill-zapier.md"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "How can we prevent infinite recursion loops and handle schema drift in Python cron scripts?",
+      "expected_output": "Must recommend propagating X-Workflow-Depth headers, checking sorted json key-paths to detect drift, and using explicit MAX_ITERATIONS limits on loops.",
+      "files": [
+        "domains/automation/skill-scripting.md"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "How do we write a Temporal workflow that generates a UUID and fetches a user from a database?",
+      "expected_output": "Must warn that workflows must be strictly deterministic; generating a UUID and fetching from a database are side effects that must be offloaded to an Activity, never executed directly inside the workflow.",
+      "files": [
+        "domains/automation/skill-temporal.md"
+      ]
+    }
+  ]
+}

@@ -20,9 +20,11 @@ Throughout every phase, behave as a **senior engineer, ML researcher, and academ
 
 ## Entry Protocol
 
-1. **Check for `.lattice-plan.md`** in the current directory
-2. **If found** → Read it and resume from the active phase
-3. **If not found** → Ask "What are we building?" and detect mode
+1. **Check for `.lattice-plan.md`** in the current directory or parent folders.
+2. **If found** → Run the environment verification script `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\verify-environment.ps1`.
+   - **LATTICE COMPLIANCE GATE**: If the verifier fails or exits with code 1, **abort immediately (hard crash)**. Do not proceed with default behaviors. Report the diagnostic error path to the user to repair the environment.
+   - If the verifier passes, read `.lattice-plan.md` and resume from the active phase using `resume-protocol.md`.
+3. **If not found** → Ask "What are we building?" and detect mode.
 
 ## Mode Detection
 
@@ -79,6 +81,18 @@ All skills at `domains/webdev/`:
 
 Every webdev skill has: **Iron Laws**, **decision tables**, **failure modes**, **review checklist**, **integration cross-references**.
 
+## Automation Domain — Quick Index (5 skills)
+
+All skills at `domains/automation/`:
+
+| Concern | Skill |
+|---|---|
+| n8n workflow retention, keys, error routing | `skill-n8n.md` |
+| Make scenario rollbacks, break directives, blueprints | `skill-make.md` |
+| Zapier storage limits, tables, CLI Jest tests | `skill-zapier.md` |
+| Python/JS loop bounds, drift checking, depth headers | `skill-scripting.md` |
+| Temporal workflows determinism, timeouts, patching | `skill-temporal.md` |
+
 ## ML Domain — Quick Index (19 skills)
 
 All skills at `domains/ml/`:
@@ -105,17 +119,20 @@ All at `shared/`:
 - `verification-protocol.md` — Iron Law: NO COMPLETION CLAIMS WITHOUT FRESH EVIDENCE
 - `parallel-agents-protocol.md` — dispatch independent subagents
 - `phase-artifacts-protocol.md` — per-phase folder structure
+- `tombstone-template.md` — template for tracking aborted paths / failure memory
 
 ## Wired-In Skills
 
 Lattice is integrated with the following external skills:
 
+<!-- ADAPTED: Normalized paths to use forward slashes for cross-platform compatibility -->
 | Skill | Path | Lifecycle |
 |---|---|---|
-| `ui-ux-pro-max:ui-ux-pro-max` | `plugins\cache\ui-ux-pro-max-skill\ui-ux-pro-max\2.5.0\` | Once per project init that includes UI |
-| `design-taste-frontend` | `skills\design-taste-frontend\SKILL.md` | Auto-fires on UI file writes |
-| `andrej-karpathy-skills:karpathy-guidelines` | `plugins\cache\karpathy-skills\andrej-karpathy-skills\1.0.0\` | Always-on during code writing |
-| `graphify` (name in file: `graphify-windows`) | `skills\graphify\SKILL.md` | On-demand for codebase analysis; `/graphify` |
+| `ui-ux-pro-max:ui-ux-pro-max` | `plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/` | Once per project init that includes UI |
+| `design-taste-frontend` | `skills/design-taste-frontend/SKILL.md` | Auto-fires on UI file writes |
+| `andrej-karpathy-skills:karpathy-guidelines` | `plugins/cache/karpathy-skills/andrej-karpathy-skills/1.0.0/` | Always-on during code writing |
+| `graphify` (name in file: `graphify-windows`) | `skills/graphify/SKILL.md` | On-demand for codebase analysis; `/graphify` |
+| `understand-anything` | `skills/understand-anything/SKILL.md` | On-demand for software codebase analysis; `/understand` |
 
 For details on invocation, inputs, outputs, and enforcements, see [skill-integration-protocol.md](file:///C:/Users/janvi/.claude/skills/lattice/shared/skill-integration-protocol.md).
 
@@ -123,14 +140,45 @@ For details on invocation, inputs, outputs, and enforcements, see [skill-integra
 
 Load only what's relevant to the current task:
 
+<!-- ADAPTED: Added path resolution note for global skill loading -->
+> [!NOTE]
+> When executing from a project subdirectory, locate the active Lattice skill directory (e.g., `~/.claude/skills/lattice/` or `~/.config/opencode/skills/lattice/`) to resolve relative paths for domains, protocols, and scripts.
+
 ```
 domains/webdev/skill-auth.md          ← for auth questions
 domains/webdev/skill-database.md      ← for schema/query questions
 domains/ml/skill-experiment-tracking.md ← for ML experiment questions
 domains/shared/skill-debugging.md     ← for any debugging
+domains/automation/skill-n8n.md       ← for n8n/workflow questions
 ```
 
 Don't load all skills proactively — read the index above, identify the right skill, load it.
+
+## Prompt Shadow Register (L1 Cache)
+
+<!-- SHADOW_REGISTER_START -->
+
+### Core: Core DPEV Loop
+- Goal:** Convert the phase's one-line description (from `.lattice-plan.md`) into specific, locked decisions that the plan can rely on.
+- Re-read the phase row in `.lattice-plan.md` and the previous phase's SUMMARY.md (if any)
+- **Read `TOMBSTONE.md` (Design Graveyard)** in the project root if it exists. Verify that the proposed approach does not conflict with any recorded design dead-ends or incompatible libraries.
+
+### Core: Verification/Evidence
+- Core principle:** Evidence before claims, always.
+- Violating the letter of this rule is violating the spirit of this rule.**
+- A test passes
+
+### Core: Unsure Protocol
+- **Identify the decision point** - What exactly is uncertain?
+- **Present top 2 options** - With clear pros/cons for each
+- **Make a recommendation** - Based on context and best practices
+
+### Core: Failure Memory (Tombstone)
+- [ ] Has the task been explicitly aborted or the path abandoned?
+- [ ] Is there a clear, verifiable reason why it failed (e.g. error message, library version clash)?
+- [ ] Is there an alternative path we took instead?
+
+<!-- SHADOW_REGISTER_END -->
 
 ## Iron Laws (Global)
 
@@ -138,6 +186,8 @@ Don't load all skills proactively — read the index above, identify the right s
 2. **Decisions live in CONTEXT.md.** Never re-answer a question already locked.
 3. **Read the relevant skill before implementing.** Don't reconstruct discipline from memory.
 4. **Raise uncertainty, don't assume.** Present 2 options with pros/cons; ask before proceeding.
+5. **Avoid repeating historical failures.** Check the project's `TOMBSTONE.md` before starting the Discuss phase.
+6. **Quicksave before task work.** Execute `scripts/quicksave.ps1` before modifying any files in the Execute phase.
 
 ## Project State
 

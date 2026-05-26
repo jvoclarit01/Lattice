@@ -1,6 +1,6 @@
 ---
 name: skill-mlops
-description: MLOps — the systems engineering around ML models in production. Pipelines, model registries, CI/CD for ML, scheduled retraining, environment promotion. Use when designing or debugging the lifecycle that takes a notebook to production: training pipeline, registry, deployment, retraining trigger. For training algorithm choices see `skill-training`; for runtime serving infra see `skill-model-serving`; for data versioning see `skill-data-versioning`.
+description: "MLOps — the systems engineering around ML models in production. Pipelines, model registries, CI/CD for ML, scheduled retraining, environment promotion. Use when designing or debugging the lifecycle that takes a notebook to production: training pipeline, registry, deployment, retraining trigger. For training algorithm choices see `skill-training`; for runtime serving infra see `skill-model-serving`; for data versioning see `skill-data-versioning`."
 ---
 
 # MLOps

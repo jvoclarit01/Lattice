@@ -90,7 +90,8 @@ For detailed methodology and workflows, see:
 Each mode activates relevant domain skills from `/domains/`:
 
 - **`domains/shared/`** (10 skills) — cross-cutting: security, testing, docs, performance, reproducibility, ethics, TDD, debugging, self-review, receiving-feedback
-- **`domains/webdev/`** (19 skills) — frontend, backend, database, auth, devops, APIs (REST, GraphQL, realtime), error handling, observability, validation, i18n, a11y, integrations, performance, QA, deployment, git-worktrees, finishing-branch. All skills follow a consistent architecture: Iron Laws, decision tables, failure modes, review checklists, and cross-references.
+- **`domains/webdev/`** (19 skills) — frontend, backend, database, auth, devops, APIs (REST, GraphQL, realtime), error handling, observability, validation, i18n, a11y, integrations, performance, QA, deployment, git-worktrees, finishing-branch.
+- **`domains/automation/`** (5 skills) — workflow automation (n8n, Make, Zapier, Temporal) and custom scripting (Python, JS) for rate limits, error backoffs, and loop prevention.
 - **`domains/ml/`** (19 skills) — data, models, training, evaluation, MLOps, etc.
 - **`domains/thesis/`** (18 skills) — structure, writing, literature, methodology, avoid-ai-writing, etc.
 

@@ -66,3 +66,14 @@ The codebase discovery tool. Invoked on demand or automatically at the start of 
 - **Trigger**: Triggered at project start for unfamiliar structures, or user-invoked via the `/graphify` slash command.
 - **Output**: Writes codebase relationship maps, schemas, and import trees to the `graphify-out/` directory.
 - **Usage**: Used to seed `RESEARCH.md` during the planning phase.
+
+---
+
+## 5. Understand-Anything (`understand-anything`)
+
+The software codebase mapping and domain flow extraction tool. Invoked automatically at project start in `project-lattice` mode, or on demand for codebases.
+
+- **Trigger**: Triggered at project start for software repositories in `project-lattice` mode, or user-invoked via the `/understand` slash command.
+- **Inputs**: None.
+- **Output**: Writes codebase knowledge-graph schemas, architecture layer classifications (`api`, `service`, `data`, `ui`, `utility`), and guided onboarding tours to the `.understand-anything/` directory.
+- **Usage**: Used to seed `RESEARCH.md` and define component boundaries in planning.

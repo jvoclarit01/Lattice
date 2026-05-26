@@ -43,8 +43,9 @@ If no `.lattice-plan.md` exists:
 2. Confirm the brief with the user
 3. Decide stack (apply Unsure Protocol if user is undecided)
 4. Initialize `.lattice-plan.md` from `shared/lattice-plan-template.md`
-5. Decompose into phases — each is a feature milestone or deployable increment
-6. Get user approval on the phase roadmap
+5. Run codebase discovery using `understand-anything` (via `/understand`) to map files and architecture.
+6. Decompose into phases — each is a feature milestone or deployable increment
+7. Get user approval on the phase roadmap
 
 If `.lattice-plan.md` exists, skip to step 2 (resume).
 

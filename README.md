@@ -25,6 +25,9 @@ Lattice integrates codebase engineering, ML research, and academic drafting into
 - **Mouse-driven Traversal**: Browse the graph by double-clicking incoming or outgoing neighbors.
 - **Path Finder Wizard**: Computes and prints directed connection chains between code elements using high-performance BFS (shortest path) or stack-based DFS traversal solvers.
 
+### 5. Global CLI Protocol Finder
+- Access the unified **72 disciplines** directly from any system terminal path. Run `lattice-protocol show unsure` or `lattice-protocol cheatsheet` to retrieve markdown rules instantly from any workspace.
+
 ---
 
 ## 🛠️ Getting Started
@@ -40,6 +43,19 @@ Launch the TUI from the root of your Lattice project workspace:
 ```bash
 python lattice-tui.py
 ```
+
+### Command Line Utilities
+Lattice installs system-wide commands for pre-flight safety and query operations:
+* **Pre-flight Environment Check**:
+  ```bash
+  powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\verify-environment.ps1
+  ```
+  Runs as a bootstrap compliance validator, halting the agent run with exit code 1 if protocol files are missing in an active Lattice workspace.
+* **Global Protocol Viewer**:
+  ```bash
+  lattice-protocol show <keyword>
+  ```
+  Resolves and outputs protocol rules dynamically (e.g. `unsure`, `verification`, `dpev`, `make`, `n8n`, `temporal`) from any filesystem directory.
 
 ### Running the Test Suite
 The codebase is validated by a comprehensive suite of integration and unit tests using `pytest`:
@@ -60,9 +76,16 @@ python -m pytest -v tests/test_graph_view.py
 │   ├── webdev/            # Web application engineering skills
 │   ├── ml/                # ML experiment, model selection, MLOps skills
 │   ├── thesis/            # Academic writing and draft validation skills
+│   ├── automation/        # Workflow automation (n8n, Make, Zapier, Temporal, scripting)
 │   └── shared/            # Common development standards (TDD, Debugging)
 ├── modes/                 # Lattice mode orchestration guides
 ├── shared/                # Core Lattice protocols (Brainstorm, DPEV, Mistake registry)
+├── scripts/               # Automation, compiler, and setup scripts
+│   ├── verify-environment.ps1 # Pre-flight compliance validator script
+│   ├── install-path-wrapper.ps1 # PATH wrapper command installer
+│   ├── lattice-protocol.ps1   # Dynamic protocol path query utility
+│   ├── lattice-protocol.cmd   # Windows batch command wrapper
+│   └── compile-cheatsheet.py  # Cheatsheet and prompt shadow register compiler
 ├── tui/                   # TUI Application source code
 │   ├── app.py             # Main Textual App Shell definition
 │   ├── parser.py          # Markdown plan parser & skill discovery engine

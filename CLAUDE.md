@@ -16,6 +16,18 @@ python -m pytest -v
 python -m pytest -v tests/test_graph_view.py
 ```
 
+### Run Utilities
+```bash
+# Run cheatsheet compilation & prompt shadow register injection
+python scripts/compile-cheatsheet.py
+
+# Verify environment safety (pre-flight checks)
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\verify-environment.ps1
+
+# Deploys path wrappers and aliases (Smart PATH Fallback)
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install-path-wrapper.ps1
+```
+
 ## Architectural Conventions
 
 ### Textual Widgets & Layout
@@ -28,3 +40,4 @@ python -m pytest -v tests/test_graph_view.py
 - Resolve all paths dynamically relative to the parsed workspace root (`self.parser.workspace`).
 - Always use `encoding="utf-8"` explicitly when reading or writing markdown plans, skill documents, or knowledge graphs (`graphify` outputs).
 - Gracefully handle file missing and format corruption states by showing stylized error views (e.g., `Static` with `id="graph-error"`) instead of raising application crashes.
+- **Protocol Syncing**: Ensure any modifications to core DPEV protocols are compiled into the prompt Shadow Register in `SKILL.md` via `compile-cheatsheet.py` before syncing globally.

@@ -40,9 +40,10 @@ digraph dpev {
 
 **Process:**
 1. Re-read the phase row in `.lattice-plan.md` and the previous phase's SUMMARY.md (if any)
-2. Apply the questioning protocol (`questioning-protocol.md`) — find the gray areas in this phase
-3. For each gray area, present 2-3 options (apply Unsure Protocol) and capture the user's choice
-4. Write CONTEXT.md with: Goal, Why now, Decisions locked, Out of scope, Dependencies
+2. **Read `TOMBSTONE.md` (Design Graveyard)** in the project root if it exists. Verify that the proposed approach does not conflict with any recorded design dead-ends or incompatible libraries.
+3. Apply the questioning protocol (`questioning-protocol.md`) — find the gray areas in this phase
+4. For each gray area, present 2-3 options (apply Unsure Protocol) and capture the user's choice
+5. Write CONTEXT.md with: Goal, Why now, Decisions locked, Out of scope, Dependencies
 
 **Exit criteria:**
 - CONTEXT.md exists and contains at least one Decision locked
@@ -75,11 +76,12 @@ digraph dpev {
 
 **Process:**
 1. Read CONTEXT.md, PLAN.md, RESEARCH.md (if exists)
-2. Work through tasks in order (or in parallel groups if PLAN.md marks them independent)
-3. Apply TDD discipline (`domains/shared/skill-tdd.md`) for code with testable behavior
-4. Commit per task using the convention `{type}({phase}-{task}): description` — e.g., `feat(02-auth-03): implement JWT validation`
-5. After each task, update SUMMARY.md with what was built, deviations, open issues
-6. If a deviation changes a locked decision, STOP and route back to DISCUSS — do not silently change the decision
+2. **Execute Git Quicksave:** Run the quicksave script `powershell -File C:\Users\janvi\.gemini\skills\lattice\scripts\quicksave.ps1` before starting work on any task. If not in a Git repository, this step is skipped.
+3. Work through tasks in order (or in parallel groups if PLAN.md marks them independent)
+4. Apply TDD discipline (`domains/shared/skill-tdd.md`) for code with testable behavior
+5. Commit per task using the convention `{type}({phase}-{task}): description` — e.g., `feat(02-auth-03): implement JWT validation`
+6. After each task, update SUMMARY.md with what was built, deviations, open issues
+7. If a deviation changes a locked decision, STOP and route back to DISCUSS — do not silently change the decision
 
 **Exit criteria:**
 - All PLAN.md tasks have either succeeded or have a documented deferral/blocker
@@ -96,8 +98,11 @@ digraph dpev {
 2. For each success criterion, gather evidence (run tests, check files, inspect behavior). Mark PASSED / FAILED / PARTIAL.
 3. Run the **Decision coverage check**: every locked decision in CONTEXT.md must show up in shipped work. Missing decisions are FAILED criteria, not nice-to-haves.
 4. Write VERIFICATION.md with per-criterion results, gaps, and a final recommendation
-5. **If PASSED:** present to user for UAT. Phase is shippable.
-6. **If FAILED or PARTIAL:** route gaps back to EXECUTE as a fix list. Do not advance.
+5. **If FAILED or PARTIAL:** 
+   - **Rollback to Quicksave:** Run the rollback script `powershell -File C:\Users\janvi\.gemini\skills\lattice\scripts\rollback.ps1` to revert broken code changes.
+   - Route gaps back to EXECUTE as a fix list. Do not advance.
+6. **If a task/path is aborted:** Document the post-mortem in the project's `TOMBSTONE.md` (Design Graveyard) using the template in `shared/tombstone-template.md` to prevent future runs from retrying the same approach.
+7. **If PASSED:** present to user for UAT. Phase is shippable.
 
 **Exit criteria:**
 - VERIFICATION.md exists with a clear recommendation
